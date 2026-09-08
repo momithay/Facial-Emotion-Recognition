@@ -118,11 +118,9 @@ These results reflect the challenge of a small, imbalanced dataset with a frozen
 
 ```
 .
-├── notebooks/
-│   └── facial_emotion_facs_multitask.ipynb   # main notebook: data prep, training, evaluation
-├── data/                                     # CK+ images + data_labels.csv (not committed — see note below)
-├── README.md
-└── requirements.txt
+├── facial_emotion_facs_multitask.ipynb   # main notebook: data prep, training, evaluation
+├── .gitignore
+└── README.md
 ```
 
 > **Note on data**: the CK+ dataset is distributed under its own research-use license and is not redistributed in this repository. See the [Dataset](#dataset) section for the source and instructions to request access, then place the images and `data_labels.csv` under `data/`.
