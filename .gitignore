@@ -1,0 +1,10 @@
+# Restricted-license dataset (CK+) — do not commit
+data-1/
+Data-1*/
+cohn-kanade-images/
+data_labels.csv
+CK+ AgreementForm.pdf
+
+# OS/editor junk
+.DS_Store
+.ipynb_checkpoints/
